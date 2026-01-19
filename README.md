@@ -1,12 +1,12 @@
 # ADULT/CHILD VOICE DETECTOR
 
 ### steps: 
-1 - build dataset, used CommonVoice ASR dataset to try to  create a dataset for child/adult classification, although children presentation in this dataset is minor, and data is not dedicated for such task.
+1 - build dataset, used CommonVoice ASR dataset to try to  create a dataset for child/adult classification, although children presentation in this dataset is minor, and data is not dedicated for such task.  
 2 - compare feature selection methods to finally use RFECV to go from 60 acoustic features to only 26 with improved ROC-AUC.   
 3 - Randomized CV Search to fine-tune an XGBoost Classifier hyperparams.  
 4 - train and test the model.  
-6 - fine tune prob threshold.  
-7 - calibrate probs and train over all the dataset.  
+5 - fine tune prob threshold.  
+6 - calibrate probs and train over all the dataset.  
 
 ### raw audios:  
 CommonVoice dataset can also be found in this kaggle URL:  
