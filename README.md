@@ -8,7 +8,9 @@
 6 - fine tune prob threshold.  
 7 - calibrate probs and train over all the dataset.  
 
-
+### raw audios:  
+CommonVoice dataset can also be found in this kaggle URL:  
+https://www.kaggle.com/datasets/mozillaorg/common-voice 
 ### run: 
 ```bash 
 python -m venv .venv 
