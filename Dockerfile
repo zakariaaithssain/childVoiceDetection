@@ -5,8 +5,9 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY model/child_detector_calibrated.joblib model/
+COPY model/ model/
 COPY model.py app.py ./
+COPY preprocess.py ./
 
 EXPOSE 8501
 
