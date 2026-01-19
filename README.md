@@ -26,7 +26,8 @@ docker run detector
 ```
 
 ### metrics:  
-model metrics for each step are available in the notebooks 
+metrics for each step are available in the notebooks 
 
 ### final conclusion:  
-the task of child/adult detection requires deeper audio analysis, stronger and dedicated datasets, and almost can't be realized (or at least in this project scope) using ML models, especially distinguishing children/women voices. 
+
+the task of child/adult detection requires deeper knowledge of audio suitable features, dedicated datasets, and can't be perfectly done with this project circumstances, especially distinguishing children/women voices. 
