@@ -11,12 +11,18 @@
 ### raw audios:  
 CommonVoice dataset can also be found in this kaggle URL:  
 https://www.kaggle.com/datasets/mozillaorg/common-voice 
-### run: 
+### run with python: 
 ```bash 
 python -m venv .venv 
 source .venv/bin/activate 
 python -m pip install -r requirements.txt
 streamlit run app.py 
+```
+### or with docker: 
+```bash 
+docker build -t detector . 
+#then 
+docker run detector 
 ```
 
 ### metrics:  
